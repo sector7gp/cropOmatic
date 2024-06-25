@@ -1,0 +1,3 @@
+This Python script uses OpenCV to center and crop profile pictures around the subject's eyes. It begins by loading the image and converting it to grayscale. Facial landmarks, particularly the eyes, are detected using a pre-trained model. The script calculates the midpoint between the eyes to determine the optimal center for cropping. It then defines a square crop region around this center, ensuring the eyes are symmetrically positioned. The crop size is adjustable, and the script handles edge cases to avoid clipping. The final step involves extracting and saving the centered profile picture, improving its overall composition and aesthetic appeal.
+
+The description was made with ChatGPT4
